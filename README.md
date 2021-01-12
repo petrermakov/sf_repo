@@ -1,17 +1,15 @@
 ## Developer commands (from Makefile)
-- [Running project](#Running-project)
+- [Running project](#running-project)
 - [XDebug](#xdebug)
 - [Database](#database)
 - [Building images](#building-images)
-- [Work with files](#files)
 - [Elasticsearch](#elasticsearch)
 - [Redis](#redis)
 - [Composer](#composer)
-- [Fixing code](#fixing)
+- [Fixing code](#fixing-code)
 - [Log and Bash](#log-and-bash)
-- [Building](#building)
 - [Install semver](#semver)
-- [Release commands](#release-commands)
+- [Building all images in Gitlab](#building-all-images-in-Gitlab)
 - [Other](#other)
 
 ### Running project
@@ -89,7 +87,7 @@
 | ---------------------- | ------- |
 | `make install-semver`  | install semver |
 
-### Building
+### Building all images in Gitlab
 | Command              | Description|
 | -------------------- | ------- |
 | `make build-feature` | build all images in Gitlab (docker-rc-'hash') in feature branch |
